@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+        },
+        {
+            "name": "WSL",
+            "includePath": [
+                "C:\\HashiCorp\\Vagrant\\embedded\\mingw64\\include\\"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\HashiCorp\\Vagrant\\embedded\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c99"
+        }
+    ],
+    "version": 4
+}
